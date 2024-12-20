@@ -1,0 +1,66 @@
+body {
+    /* background-color: rgb(255, 204, 103) !important; */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("main_background.png");
+}
+
+h1, h2, h3 {
+    font-family: 'Domine';
+    font-weight: 400;
+}
+
+.file_browse {
+    border-radius: 10px !important;
+}
+
+.selected {
+    font-family: 'Georgia';
+    font-size: 24px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.hidden-file {
+    display: none;
+}
+
+.passwd {
+    display: none;
+}
+
+.typed-out {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(50, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.green {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline !important;
+    background-color: green !important;
+    color: white;
+}
+
+.blue {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline !important;
+    background-color: blue !important;
+    color: white;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+p {
+    font-family: "Cambria Math" !important;
+}
